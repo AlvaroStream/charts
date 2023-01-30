@@ -1,4 +1,4 @@
-FROM vault:1.10.4
+FROM vault:1.10.9
 
 RUN wget https://storage.googleapis.com/kubernetes-release/release/v1.18.0/bin/linux/amd64/kubectl
 RUN chmod +x ./kubectl

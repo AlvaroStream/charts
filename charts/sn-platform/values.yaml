@@ -220,7 +220,7 @@ images:
     pullPolicy: "IfNotPresent"
   vault:
     repository: vault
-    tag: "1.10.4"
+    tag: "1.10.9"
     pullPolicy: "IfNotPresent"
   bank_vaults:
     repository: ghcr.io/banzaicloud/bank-vaults
